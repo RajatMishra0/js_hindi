@@ -39,10 +39,37 @@ const users=[
     ]
     // console.log(users[1].id);
 
-    console.log(Object.keys(tinderUser));
-    console.log(Object.values(tinderUser));
-    console.log(Object.entries(tinderUser));
+    // console.log(Object.keys(tinderUser));
+    // console.log(Object.values(tinderUser));
+    // console.log(Object.entries(tinderUser));
 
-    console.log(tinderUser.hasOwnProperty('isLogged'));
+    // console.log(tinderUser.hasOwnProperty('isLogged'));
 
 
+///+++++++++++++++++++object destructue and json api+++++++++++++++////
+
+const course ={
+    coursename :" js in hindi",
+    price : "999",
+    courseInstructor: "hitesh Sir"
+}
+// course.cousreInstructor
+
+const {courseInstructor: instructor}= course
+
+// console.log(courseInstructor) ;
+// console.log(instructor);
+
+
+/// #API'S
+{
+    "name":"hitesh",
+    "cousrename":"js in hindi",
+    "price":"free"
+}
+
+[
+    {},
+    {};
+    {}
+]
