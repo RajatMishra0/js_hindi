@@ -5,8 +5,8 @@
 const arr =[1,2,3,4,5]
 
 for (const  num of arr) {
- //   console.log(num);
-}
+   console.log(num);
+// }
 
 
 
@@ -41,8 +41,9 @@ const MyObject ={
 }
 
 for (const [key , value] of MyObject) {
-    console.log(key ':-', value);
+   // console.log(key ,':-', value);
     
 }
+// for of loop se map ko iterate nhi kiya jaaa skta hai
 
 

@@ -44,7 +44,8 @@ const chai = ()=>{
   
 // const addTwo = (num1 , num2)=> (num1 + num2) 
 
-// in case of returnig the object in arrow functio
+// in case of returnig the object in arrow function
+// mtlb isme arrow function object return krta hai
 const addTwo = (num1 , num2)=> ({username: "hitesh"} )
 
 console.log(addTwo(3,4))

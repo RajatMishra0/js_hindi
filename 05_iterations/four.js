@@ -13,4 +13,25 @@ const myObject ={
 // }
 
 
-const  programming =[""]
+const  programming =["js" ,"rb","py" ,"java" ,"cpp"]
+for(const key in programming){
+  //  console.log(programming[key])  ; // it give  value not key 
+}
+for(const key in programming){
+   // console.log(key)  ; // it give key mot value 
+    //jbki for of loop mein milta hai value 
+}
+
+
+
+const map =new Map() 
+ map.set("IN" , "INDIA")
+ map.set("US" , "UNITE STATE")
+ map.set('FR' ,"india")
+
+ for (const key in map) {
+   // console.log(key) ;
+   
+ } // for in loop se map ko iterate nhi kiya jaa skta hai
+
+
